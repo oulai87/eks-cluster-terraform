@@ -28,7 +28,7 @@ module "alb_ingress_controller" {
   k8s_cluster_type = "eks"
   k8s_namespace    = "kube-system"
 
-  aws_region_name  = "us-east-1"
+  aws_region_name  = "us-west-2"
   aws_vpc_id       = var.aws_vpc_id       # Your VPC ID goes here.
   k8s_cluster_name = var.k8s_cluster_name # Your AWS EKS Cluster ID goes here.
 }
